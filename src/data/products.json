@@ -1,0 +1,192 @@
+[
+  {
+    "id": "iphone-15-pro",
+    "slug": "iphone-15-pro",
+    "title": "iPhone 15 Pro",
+    "brand": "Apple",
+    "categoryId": "smartphones",
+    "images": [
+      "https://images.unsplash.com/photo-1695048133142-1a20484d2569?w=800&q=80"
+    ],
+    "price": 5499,
+    "oldPrice": 5999,
+    "specs": {
+      "cpu": "A17 Pro",
+      "ram": "8GB",
+      "storage": "256GB",
+      "display": "6.1\" OLED",
+      "battery": "3274 mAh",
+      "camera": "48MP + 12MP + 12MP",
+      "os": "iOS 17",
+      "weight": "187g",
+      "color": "Titanium Blue"
+    },
+    "rating": {
+      "avg": 4.8,
+      "count": 342
+    },
+    "stock": "in_stock",
+    "warrantyMonths": 24,
+    "deliveryEtaDays": 2,
+    "createdAt": "2024-09-01",
+    "featured": true,
+    "isNew": true,
+    "description": "Pro. Beyond. With titanium design, A17 Pro chip, and advanced camera system."
+  },
+  {
+    "id": "samsung-s24-ultra",
+    "slug": "samsung-galaxy-s24-ultra",
+    "title": "Samsung Galaxy S24 Ultra",
+    "brand": "Samsung",
+    "categoryId": "smartphones",
+    "images": [
+      "https://images.unsplash.com/photo-1610945415295-d9bbf067e59c?w=800&q=80"
+    ],
+    "price": 5799,
+    "specs": {
+      "cpu": "Snapdragon 8 Gen 3",
+      "ram": "12GB",
+      "storage": "512GB",
+      "display": "6.8\" Dynamic AMOLED",
+      "battery": "5000 mAh",
+      "camera": "200MP + 50MP + 12MP + 10MP",
+      "os": "Android 14",
+      "weight": "232g",
+      "color": "Phantom Black"
+    },
+    "rating": {
+      "avg": 4.9,
+      "count": 289
+    },
+    "stock": "in_stock",
+    "warrantyMonths": 24,
+    "deliveryEtaDays": 1,
+    "createdAt": "2024-01-15",
+    "featured": true,
+    "isNew": true,
+    "description": "Epic in every way. The ultimate Galaxy with built-in S Pen and AI features."
+  },
+  {
+    "id": "xiaomi-14-pro",
+    "slug": "xiaomi-14-pro",
+    "title": "Xiaomi 14 Pro",
+    "brand": "Xiaomi",
+    "categoryId": "smartphones",
+    "images": [
+      "https://images.unsplash.com/photo-1598327105666-5b89351aff97?w=800&q=80"
+    ],
+    "price": 3299,
+    "oldPrice": 3699,
+    "specs": {
+      "cpu": "Snapdragon 8 Gen 3",
+      "ram": "12GB",
+      "storage": "256GB",
+      "display": "6.73\" AMOLED",
+      "battery": "4880 mAh",
+      "camera": "50MP + 50MP + 50MP",
+      "os": "HyperOS",
+      "weight": "218g",
+      "color": "Titanium Gray"
+    },
+    "rating": {
+      "avg": 4.6,
+      "count": 178
+    },
+    "stock": "in_stock",
+    "warrantyMonths": 24,
+    "deliveryEtaDays": 2,
+    "createdAt": "2024-02-20",
+    "featured": true,
+    "description": "Flagship performance at an incredible price with Leica camera system."
+  },
+  {
+    "id": "macbook-air-m3",
+    "slug": "macbook-air-m3",
+    "title": "MacBook Air M3",
+    "brand": "Apple",
+    "categoryId": "laptops",
+    "images": [
+      "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?w=800&q=80"
+    ],
+    "price": 6999,
+    "specs": {
+      "cpu": "Apple M3",
+      "ram": "16GB",
+      "storage": "512GB SSD",
+      "display": "13.6\" Liquid Retina",
+      "battery": "18 hours",
+      "weight": "1.24kg",
+      "color": "Midnight"
+    },
+    "rating": {
+      "avg": 4.9,
+      "count": 567
+    },
+    "stock": "in_stock",
+    "warrantyMonths": 24,
+    "deliveryEtaDays": 2,
+    "createdAt": "2024-03-01",
+    "featured": true,
+    "isNew": true,
+    "description": "Supercharged by M3. Incredibly thin and light. All-day battery life."
+  },
+  {
+    "id": "ipad-pro-m4",
+    "slug": "ipad-pro-m4",
+    "title": "iPad Pro 11\" M4",
+    "brand": "Apple",
+    "categoryId": "tablets",
+    "images": [
+      "https://images.unsplash.com/photo-1544244015-0df4b3ffc6b0?w=800&q=80"
+    ],
+    "price": 4999,
+    "specs": {
+      "cpu": "Apple M4",
+      "ram": "8GB",
+      "storage": "256GB",
+      "display": "11\" Liquid Retina",
+      "battery": "10 hours",
+      "camera": "12MP + 10MP",
+      "os": "iPadOS 17",
+      "weight": "466g",
+      "color": "Space Gray"
+    },
+    "rating": {
+      "avg": 4.8,
+      "count": 234
+    },
+    "stock": "in_stock",
+    "warrantyMonths": 24,
+    "deliveryEtaDays": 2,
+    "createdAt": "2024-05-01",
+    "featured": true,
+    "isNew": true,
+    "description": "Unbelievably thin. Incredibly powerful. With the breakthrough M4 chip."
+  },
+  {
+    "id": "airpods-pro-2",
+    "slug": "airpods-pro-2",
+    "title": "AirPods Pro (2nd gen)",
+    "brand": "Apple",
+    "categoryId": "accessories",
+    "images": [
+      "https://images.unsplash.com/photo-1606841837239-c5a1a4a07af7?w=800&q=80"
+    ],
+    "price": 1299,
+    "specs": {
+      "battery": "6 hours (30h with case)",
+      "weight": "5.3g per earbud",
+      "color": "White"
+    },
+    "rating": {
+      "avg": 4.7,
+      "count": 892
+    },
+    "stock": "in_stock",
+    "warrantyMonths": 12,
+    "deliveryEtaDays": 1,
+    "createdAt": "2023-09-01",
+    "featured": true,
+    "description": "Active Noise Cancellation, Adaptive Audio, and USB-C charging."
+  }
+]

@@ -1,0 +1,244 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Poppins:wght@600;700;800&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Mega Mobile Design System - Neon Lime + Deep Blue Tech Retailer */
+
+@layer base {
+  :root {
+    /* Brand Colors - Light Mode */
+    --background: 210 17% 98%;
+    --foreground: 215 25% 10%;
+    
+    --card: 0 0% 100%;
+    --card-foreground: 215 25% 10%;
+    
+    --popover: 0 0% 100%;
+    --popover-foreground: 215 25% 10%;
+    
+    /* Neon Lime Primary */
+    --primary: 73 100% 62%;
+    --primary-foreground: 215 25% 10%;
+    
+    /* Deep Blue Secondary */
+    --secondary: 210 64% 17%;
+    --secondary-foreground: 0 0% 100%;
+    
+    --muted: 210 17% 95%;
+    --muted-foreground: 215 10% 45%;
+    
+    --accent: 73 100% 62%;
+    --accent-foreground: 215 25% 10%;
+    
+    /* Success Green */
+    --success: 142 76% 45%;
+    --success-foreground: 0 0% 100%;
+    
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 0 0% 100%;
+    
+    --border: 210 17% 90%;
+    --input: 210 17% 90%;
+    --ring: 73 100% 62%;
+    
+    --radius: 1rem;
+    
+    /* Gradients */
+    --gradient-primary: linear-gradient(135deg, hsl(73 100% 62%) 0%, hsl(142 76% 45%) 100%);
+    --gradient-hero: linear-gradient(135deg, hsl(210 64% 17%) 0%, hsl(215 40% 8%) 100%);
+    --gradient-card: linear-gradient(180deg, hsl(0 0% 100%) 0%, hsl(210 17% 98%) 100%);
+    
+    /* Shadows */
+    --shadow-sm: 0 1px 2px 0 rgb(0 0 0 / 0.05);
+    --shadow-md: 0 4px 6px -1px rgb(0 0 0 / 0.1);
+    --shadow-lg: 0 10px 15px -3px rgb(0 0 0 / 0.1);
+    --shadow-glow: 0 0 20px 0 hsl(73 100% 62% / 0.3);
+    
+    /* Transitions */
+    --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  .dark {
+    /* Brand Colors - Dark Mode */
+    --background: 215 40% 8%;
+    --foreground: 210 17% 98%;
+    
+    --card: 215 35% 11%;
+    --card-foreground: 210 17% 98%;
+    
+    --popover: 215 35% 11%;
+    --popover-foreground: 210 17% 98%;
+    
+    /* Neon Lime Primary (brighter in dark) */
+    --primary: 73 100% 62%;
+    --primary-foreground: 215 25% 10%;
+    
+    /* Deep Blue Secondary */
+    --secondary: 210 64% 17%;
+    --secondary-foreground: 0 0% 100%;
+    
+    --muted: 215 30% 15%;
+    --muted-foreground: 210 10% 60%;
+    
+    --accent: 73 100% 62%;
+    --accent-foreground: 215 25% 10%;
+    
+    --success: 142 76% 45%;
+    --success-foreground: 0 0% 100%;
+    
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 0 0% 100%;
+    
+    --border: 215 30% 18%;
+    --input: 215 30% 18%;
+    --ring: 73 100% 62%;
+    
+    /* Dark Gradients */
+    --gradient-primary: linear-gradient(135deg, hsl(73 100% 62%) 0%, hsl(142 76% 45%) 100%);
+    --gradient-hero: linear-gradient(135deg, hsl(210 64% 17%) 0%, hsl(215 40% 8%) 100%);
+    --gradient-card: linear-gradient(180deg, hsl(215 35% 11%) 0%, hsl(215 40% 8%) 100%);
+    
+    --shadow-glow: 0 0 30px 0 hsl(73 100% 62% / 0.4);
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  
+  body {
+    @apply bg-background text-foreground font-sans antialiased;
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Poppins', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+    @apply font-bold;
+  }
+}
+
+@layer components {
+  /* Tech Background Pattern */
+  .tech-background {
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .tech-background::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background-image: 
+      radial-gradient(circle at 20% 30%, hsl(73 100% 62% / 0.08) 0%, transparent 50%),
+      radial-gradient(circle at 80% 70%, hsl(210 64% 17% / 0.12) 0%, transparent 50%),
+      radial-gradient(circle at 40% 80%, hsl(142 76% 45% / 0.06) 0%, transparent 40%);
+    z-index: 0;
+  }
+  
+  .tech-background::after {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background-image: 
+      repeating-linear-gradient(90deg, hsl(73 100% 62% / 0.03) 0px, transparent 1px, transparent 80px),
+      repeating-linear-gradient(0deg, hsl(210 64% 17% / 0.03) 0px, transparent 1px, transparent 80px);
+    z-index: 0;
+    animation: slide-pattern 20s linear infinite;
+  }
+  
+  @keyframes slide-pattern {
+    0% {
+      transform: translate(0, 0);
+    }
+    100% {
+      transform: translate(80px, 80px);
+    }
+  }
+  
+  .dark .tech-background::before {
+    background-image: 
+      radial-gradient(circle at 20% 30%, hsl(73 100% 62% / 0.12) 0%, transparent 50%),
+      radial-gradient(circle at 80% 70%, hsl(210 64% 17% / 0.15) 0%, transparent 50%),
+      radial-gradient(circle at 40% 80%, hsl(142 76% 45% / 0.08) 0%, transparent 40%);
+  }
+  
+  .dark .tech-background::after {
+    background-image: 
+      repeating-linear-gradient(90deg, hsl(73 100% 62% / 0.05) 0px, transparent 1px, transparent 80px),
+      repeating-linear-gradient(0deg, hsl(210 64% 17% / 0.08) 0px, transparent 1px, transparent 80px);
+  }
+  
+  /* Tech Dots Pattern */
+  .tech-dots {
+    position: relative;
+  }
+  
+  .tech-dots::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background-image: radial-gradient(circle, hsl(73 100% 62% / 0.1) 1px, transparent 1px);
+    background-size: 30px 30px;
+    z-index: 0;
+  }
+  
+  .dark .tech-dots::before {
+    background-image: radial-gradient(circle, hsl(73 100% 62% / 0.15) 1px, transparent 1px);
+  }
+
+  /* Hero Animations */
+  .animate-fade-in-up {
+    animation: fade-in-up 0.6s ease-out;
+  }
+  
+  @keyframes fade-in-up {
+    from {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  /* Smooth Hover Lift */
+  .hover-lift {
+    @apply transition-all duration-300 ease-out;
+  }
+  
+  .hover-lift:hover {
+    @apply -translate-y-1 shadow-lg;
+  }
+  
+  /* Glow Effect */
+  .glow-effect {
+    box-shadow: var(--shadow-glow);
+  }
+  
+  /* Text Gradient */
+  .text-gradient {
+    background: var(--gradient-primary);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  
+  /* Reduced Motion Support */
+  @media (prefers-reduced-motion: reduce) {
+    *,
+    *::before,
+    *::after {
+      animation-duration: 0.01ms !important;
+      animation-iteration-count: 1 !important;
+      transition-duration: 0.01ms !important;
+    }
+    
+    .tech-background::after {
+      animation: none !important;
+    }
+  }
+}

@@ -1,0 +1,37 @@
+[
+  {
+    "id": "smartphones",
+    "slug": "smartphones",
+    "name": "Smartphones",
+    "description": "Latest smartphones from top brands",
+    "parentId": null
+  },
+  {
+    "id": "laptops",
+    "slug": "laptops",
+    "name": "Laptops",
+    "description": "Powerful laptops for work and gaming",
+    "parentId": null
+  },
+  {
+    "id": "tablets",
+    "slug": "tablets",
+    "name": "Tablets",
+    "description": "Tablets for entertainment and productivity",
+    "parentId": null
+  },
+  {
+    "id": "wearables",
+    "slug": "wearables",
+    "name": "Wearables",
+    "description": "Smartwatches and fitness trackers",
+    "parentId": null
+  },
+  {
+    "id": "accessories",
+    "slug": "accessories",
+    "name": "Accessories",
+    "description": "Chargers, cases, and more",
+    "parentId": null
+  }
+]

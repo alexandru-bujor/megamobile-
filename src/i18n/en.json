@@ -1,0 +1,106 @@
+{
+  "nav": {
+    "home": "Home",
+    "catalog": "Catalog",
+    "about": "About Us",
+    "cart": "Cart",
+    "wishlist": "Wishlist",
+    "compare": "Compare",
+    "account": "My Account"
+  },
+  "about": {
+    "tagline": "Your trusted technology store in Moldova",
+    "story": {
+      "title": "Our Story",
+      "paragraph1": "Mega Mobile is Moldova's leading technology store, offering the latest smartphones, laptops, tablets, and accessories from world-renowned brands.",
+      "paragraph2": "With over 10 years of experience, we are dedicated to bringing the best technology products at competitive prices, with reliable service and professional support."
+    },
+    "values": {
+      "innovation": {
+        "title": "Innovation",
+        "description": "Always up to date with the latest technologies and trends"
+      },
+      "quality": {
+        "title": "Quality",
+        "description": "Only original products with official warranty"
+      },
+      "trust": {
+        "title": "Trust",
+        "description": "Over 100,000 satisfied customers"
+      }
+    },
+    "contact": {
+      "title": "Contact Us",
+      "address": "Address",
+      "phone": "Phone",
+      "email": "Email",
+      "hours": "Hours",
+      "weekdays": "Monday - Friday",
+      "weekend": "Saturday - Sunday"
+    }
+  },
+  "hero": {
+    "title": "Top smartphone deals",
+    "subtitle": "Fast delivery in 48h • 24-month warranty • 14-day returns",
+    "cta": "Discover deals"
+  },
+  "home": {
+    "bestsellers": "Bestsellers",
+    "newArrivals": "New Arrivals",
+    "viewAll": "View all",
+    "shopNow": "Shop now"
+  },
+  "product": {
+    "addToCart": "Add to Cart",
+    "addToWishlist": "Add to Wishlist",
+    "compare": "Compare",
+    "inStock": "In Stock",
+    "preorder": "Preorder",
+    "outOfStock": "Out of Stock",
+    "warranty": "months warranty",
+    "delivery": "days delivery",
+    "specifications": "Specifications",
+    "description": "Description",
+    "reviews": "Reviews",
+    "relatedProducts": "Related Products"
+  },
+  "filters": {
+    "filter": "Filter",
+    "sortBy": "Sort by",
+    "priceRange": "Price Range",
+    "brand": "Brand",
+    "ram": "RAM",
+    "storage": "Storage",
+    "clearAll": "Clear all"
+  },
+  "sort": {
+    "relevance": "Relevance",
+    "newest": "Newest",
+    "priceAsc": "Price: Low to High",
+    "priceDesc": "Price: High to Low",
+    "rating": "Top Rated"
+  },
+  "cart": {
+    "title": "My Cart",
+    "empty": "Your cart is empty",
+    "continueShopping": "Continue shopping",
+    "subtotal": "Subtotal",
+    "discount": "Discount",
+    "total": "Total",
+    "checkout": "Checkout",
+    "applyPromo": "Apply promo code",
+    "freeShipping": "Free shipping over",
+    "remove": "Remove"
+  },
+  "footer": {
+    "aboutUs": "About Us",
+    "contact": "Contact",
+    "terms": "Terms & Conditions",
+    "privacy": "Privacy Policy",
+    "warranty": "Warranty",
+    "returns": "Returns",
+    "newsletter": "Subscribe to newsletter",
+    "newsletterCta": "Get exclusive deals",
+    "subscribe": "Subscribe"
+  }
+}

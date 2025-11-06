@@ -1,0 +1,106 @@
+{
+  "nav": {
+    "home": "Acasă",
+    "catalog": "Catalog",
+    "about": "Despre noi",
+    "cart": "Coș",
+    "wishlist": "Favorite",
+    "compare": "Compară",
+    "account": "Contul meu"
+  },
+  "about": {
+    "tagline": "Magazinul tău de tehnologie de încredere din Moldova",
+    "story": {
+      "title": "Povestea noastră",
+      "paragraph1": "Mega Mobile este magazinul de tehnologie de top din Moldova, oferind cele mai recente smartphone-uri, laptopuri, tablete și accesorii de la branduri de renume mondial.",
+      "paragraph2": "Cu peste 10 ani de experiență, ne-am dedicat să aducem cele mai bune produse tehnologice la prețuri competitive, cu servicii de încredere și asistență profesională."
+    },
+    "values": {
+      "innovation": {
+        "title": "Inovație",
+        "description": "Mereu la curent cu ultimele tehnologii și tendințe"
+      },
+      "quality": {
+        "title": "Calitate",
+        "description": "Doar produse originale cu garanție oficială"
+      },
+      "trust": {
+        "title": "Încredere",
+        "description": "Peste 100.000 de clienți mulțumiți"
+      }
+    },
+    "contact": {
+      "title": "Contactează-ne",
+      "address": "Adresă",
+      "phone": "Telefon",
+      "email": "Email",
+      "hours": "Program",
+      "weekdays": "Luni - Vineri",
+      "weekend": "Sâmbătă - Duminică"
+    }
+  },
+  "hero": {
+    "title": "Reduceri la smartphone-uri de top",
+    "subtitle": "Livrare rapidă în 48h • Garanție 24 luni • Returnări în 14 zile",
+    "cta": "Descoperă ofertele"
+  },
+  "home": {
+    "bestsellers": "Cele mai vândute",
+    "newArrivals": "Noutăți",
+    "viewAll": "Vezi toate",
+    "shopNow": "Cumpără acum"
+  },
+  "product": {
+    "addToCart": "Adaugă în coș",
+    "addToWishlist": "Adaugă la favorite",
+    "compare": "Compară",
+    "inStock": "În stoc",
+    "preorder": "Precomandă",
+    "outOfStock": "Stoc epuizat",
+    "warranty": "luni garanție",
+    "delivery": "zile livrare",
+    "specifications": "Specificații",
+    "description": "Descriere",
+    "reviews": "Recenzii",
+    "relatedProducts": "Produse similare"
+  },
+  "filters": {
+    "filter": "Filtrează",
+    "sortBy": "Sortează după",
+    "priceRange": "Interval preț",
+    "brand": "Marcă",
+    "ram": "Memorie RAM",
+    "storage": "Stocare",
+    "clearAll": "Șterge toate"
+  },
+  "sort": {
+    "relevance": "Relevanță",
+    "newest": "Cele mai noi",
+    "priceAsc": "Preț crescător",
+    "priceDesc": "Preț descrescător",
+    "rating": "Cel mai bine cotate"
+  },
+  "cart": {
+    "title": "Coșul meu",
+    "empty": "Coșul tău este gol",
+    "continueShopping": "Continuă cumpărăturile",
+    "subtotal": "Subtotal",
+    "discount": "Reducere",
+    "total": "Total",
+    "checkout": "Finalizează comanda",
+    "applyPromo": "Aplică cod promoțional",
+    "freeShipping": "Transport gratuit peste",
+    "remove": "Elimină"
+  },
+  "footer": {
+    "aboutUs": "Despre noi",
+    "contact": "Contact",
+    "terms": "Termeni și condiții",
+    "privacy": "Politică de confidențialitate",
+    "warranty": "Garanție",
+    "returns": "Returnări",
+    "newsletter": "Abonează-te la newsletter",
+    "newsletterCta": "Primește oferte exclusive",
+    "subscribe": "Abonează-te"
+  }
+}
